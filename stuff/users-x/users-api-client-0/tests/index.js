@@ -23,7 +23,7 @@ describe('api', () => {
     })
 
     it('should create', done => {
-        api.create('n', 's', 'e', 'u', 'p')
+        api.create('n69', 's69', 'e69', 'u69', 'p69')
             .then(res => {
                 assert.equal(res.status, 'OK', 'results should be OK')
 
@@ -32,5 +32,9 @@ describe('api', () => {
                 done()
             })
             .catch(done)
+    })
+
+    it('should update', done => {
+        api.update()
     })
 })
